@@ -61,12 +61,3 @@ It includes:
 
 This project demonstrates how machine learning can be effectively applied to classic datasets for classification and visualization, while showcasing deployment-ready interactive apps for end-users.
 
-# Iris Classification Streamlit App
-
-This repository contains the code for a Streamlit app that predicts iris flower species.
-
-## How to run locally
-1. Clone the repo:
-```bash
-git clone https://github.com/fidasaleem/Codsoft_IrisClassification.git
-
