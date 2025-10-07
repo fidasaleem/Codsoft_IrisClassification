@@ -122,3 +122,4 @@ fig.update_layout(
         tickfont=dict(color="#000000")
     )
 )
+st.plotly_chart(fig, use_container_width=True)
