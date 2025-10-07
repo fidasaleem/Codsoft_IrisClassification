@@ -57,8 +57,7 @@ def set_bg(image_file):
 
 st.set_page_config(page_title="Iris Flower Classifier", page_icon="🌸")
 
-set_bg("C:\Users\Fida\Downloads\CodSoft_Iris\iriss.jpg")
-
+set_bg("iriss.jpg")
 
 # ---------------- App title ----------------
 st.title("🌸 Iris Flower Classification App")
