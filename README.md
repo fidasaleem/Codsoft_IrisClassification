@@ -1,63 +1,69 @@
 # 🌸 Iris Flower Classification  
 
-An **end-to-end machine learning project** that predicts the species of an Iris flower based on its sepal and petal measurements. The project covers **data exploration, model development, performance evaluation**, and an interactive **Streamlit web app** for real-time predictions.
+An **end-to-end machine learning project** that predicts the species of an Iris flower using its sepal and petal measurements.  
+This project covers the full data science workflow — from **data exploration** to **model deployment** via a sleek **Streamlit web app**.
 
 ---
 
 ## 📘 Project Overview  
 
-This project demonstrates the complete data science workflow using the famous **Iris dataset**. The goal is to classify flowers into three species — *Iris-setosa*, *Iris-versicolor*, and *Iris-virginica* — using supervised learning algorithms.  
+The **Iris dataset**, one of the most popular datasets in machine learning, is used to classify flowers into three species:  
+🌼 *Iris-setosa*  
+🌷 *Iris-versicolor*  
+🌺 *Iris-virginica*  
 
-It includes:
-- Exploratory Data Analysis (EDA) with statistical summaries and correlation insights  
-- Visualization of feature relationships and PCA clustering  
-- Model training with multiple algorithms and cross-validation  
-- Deployment-ready **Streamlit app** with a custom-designed interface  
+This project includes:  
+- 🔍 **Exploratory Data Analysis (EDA):** Statistical summaries, feature correlations, and visual insights  
+- 📊 **Data Visualization:** Pairplots, boxplots, and PCA-based species clustering  
+- ⚙️ **Model Building:** Training and evaluating multiple supervised learning algorithms  
+- 🌐 **App Deployment:** A fully interactive Streamlit app for real-time predictions  
 
 ---
 
 ## 🧠 Key Insights  
 
-- **Petal length and width** are the strongest predictors (correlation > 0.9).  
-- **Sepal dimensions** show weak correlation with species.  
-- **SVM** achieved the highest accuracy of **96.7%**.  
-- PCA visualization shows clear separation among species clusters.  
+- **Petal length and petal width** are the most powerful predictors (correlation > 0.9).  
+- **Sepal dimensions** contribute less to classification accuracy.  
+- **Support Vector Machine (SVM)** achieved the best accuracy of **96.7%**.  
+- PCA visualization clearly separates the three Iris species into distinct clusters.  
 
 ---
 
 ## ⚙️ Tech Stack  
 
-- **Python**  
-- **Libraries:** scikit-learn, pandas, numpy, matplotlib, seaborn, plotly  
-- **Model:** Support Vector Machine (SVM)  
-- **Deployment:** Streamlit  
-- **Visualization:** Plotly, Matplotlib  
+| Category | Tools / Libraries |
+|-----------|------------------|
+| **Language** | Python |
+| **Libraries** | scikit-learn, pandas, numpy, matplotlib, seaborn, plotly |
+| **Model** | Support Vector Machine (SVM) |
+| **Deployment** | Streamlit |
+| **Visualization** | Plotly, Matplotlib, Seaborn |
 
 ---
 
-## 🚀 How to Run  
+## 🚀 Try the App  
 
-1. Clone the repository  
-   ```bash
-   git clone https://github.com/fidasaleem/Codsoft_IrisClassification.git
-   cd Codsoft_IrisClassification
+You can explore the model interactively using the live Streamlit app below:  
+👉 [**Launch Iris Classifier App**](https://codsoftirisclassification-jxcibfqpfmizwuunj3sfyj.streamlit.app/)  
 
-  2. Install dependencies
-     ```bash
-     pip install -r requirements.txt
+---
 
-  3. Run the Streamlit app
-     ```bash
-     streamlit run Iris.py
+## 💻 Run Locally  
 
-## 🎨 App Features
+Follow these steps to run the project on your system:
 
-- Custom background and themed UI
-- Adjustable sliders for feature inputs
-- Real-time probability plot and prediction
-- Highlighted results with dynamic color
 
-## 🏁 Conclusion
+# 1️⃣ Clone the repository
+```bash
+git clone https://github.com/fidasaleem/Codsoft_IrisClassification.git
+cd Codsoft_IrisClassification
+```
 
-This project demonstrates how machine learning can be effectively applied to classic datasets for classification and visualization, while showcasing deployment-ready interactive apps for end-users.
-
+# 2️⃣ Install dependencies
+```bash
+pip install -r requirements.txt
+```
+# 3️⃣ Run the Streamlit app
+```bash
+streamlit run Iris.py
+```
