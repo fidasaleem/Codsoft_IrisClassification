@@ -112,17 +112,13 @@ fig = go.Figure(
 fig.update_layout(
     plot_bgcolor="#EDE2C2",      
     paper_bgcolor='rgba(0,0,0,0)',
-    font=dict(color="#000000"),  # Set all text to black
+    font=dict(color="#000000"),
     xaxis=dict(
-        title="Species",
-        tickfont=dict(color="#000000"),
-        titlefont=dict(color="#000000")
+        title=dict(text="Species", font=dict(color="#000000")),
+        tickfont=dict(color="#000000")
     ),
     yaxis=dict(
-        title="Probability",
-        tickfont=dict(color="#000000"),
-        titlefont=dict(color="#000000")
+        title=dict(text="Probability", font=dict(color="#000000")),
+        tickfont=dict(color="#000000")
     )
 )
-
-st.plotly_chart(fig)
